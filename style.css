@@ -1,0 +1,10 @@
+.error{
+    color: red;
+    font-size: 14px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #92909eb5;
+}
