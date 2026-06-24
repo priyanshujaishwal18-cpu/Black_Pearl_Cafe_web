@@ -1,49 +1,252 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Black Pearl Cafe</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <header>
-            <h1>Black Pearl Cafe</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <section id="home">
-            <h2>Welcome to Black Pearl Cafe</h2>
-            <p>Your cozy spot for the best coffee and pastries in town.</p>
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Pearl Cafe</title>
 
-        <section id="menu">
-            <h2>Our Menu</h2>
-            <ul>
-                <li>Espresso - $3.00</li>
-                <li>Cappuccino - $4.00</li>
-                <li>Latte - $4.50</li>
-                <li>Blueberry Muffin - $2.50</li>
-                <li>Chocolate Croissant - $3.00</li>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            ☕ Black Pearl Cafe
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="menu.html">Menu</a>
+                </li>
+
+                <li>
+                    <a href="service.html">Service</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
             </ul>
-        </section>
+        </nav>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Black Pearl Cafe was founded in 2010 with the mission to provide high-quality coffee and a welcoming atmosphere for our community.</p>
-        </section>
+        <div class="nav-right">
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email:
-        
+            <i class="fa-solid fa-bag-shopping cart"></i>
+
+            <a href="login.html">
+                <button class="signin-btn">
+                    Login / Sign Up
+                </button>
+            </a>
+
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Sip, Relax, <br>
+                Sail into <span>Taste</span>
+            </h1>
+
+            <p>
+                Serving calm vibes with tea & coffee ☕🍵 <br>
+                Elegant ambiance | Crafted moments
+            </p>
+
+            <a href="menu.html" class="order-btn">
+                Order Now
+            </a>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/profile.php?id=61587400626134">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@black.pearl.cafe" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="bg-shape"></div>
+
+            <img src="alena.png" alt="Delivery Image">
+
+        </div>
+
+    </section>
+
+    <section class="services" id="service">
+
+        <span class="section-tag">
+            OUR SERVICES
+        </span>
+
+        <h2>
+            How Does It Work?
+        </h2>
+
+        <div class="service-container">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+
+                <h3>Easy To Order</h3>
+
+                <p>
+                    You only need a few simple steps to order your favorite food.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+
+                <h3>Fast Delivery</h3>
+
+                <p>
+                    Your food arrives quickly while staying fresh and delicious.
+                </p>
+
+            </div>
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+
+                <h3>Best Quality</h3>
+
+                <p>
+                    We focus on premium taste and quality in every meal.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-about">
+
+            <h2>Black Pearl Cafe</h2>
+
+            <p>
+                Fresh coffee, delicious meals and
+                cozy vibes for every food lover.
+            </p>
+
+            <div class="footer-socials">
+
+                <div class="social-box">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+                <div class="social-box">
+                    <a href="https://www.facebook.com/profile.php?id=6158740062613" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+
+                <div class="social-box">
+                    <a href="https://www.tiktok.com/@black.pearl.cafe" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+
+                <h3>Menu</h3>
+
+                <a href="menu.html">Coffee</a>
+                <a href="menu.html">MilkShake</a>
+                <a href="menu.html">Tea</a>
+                <a href="menu.html">Hookah</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Company</h3>
+
+                <a href="about.html">About Us</a>
+                <a href="chefs.html">Our Chefs</a>
+                <a href="careers.html">Careers</a>
+                <a href="blog.html">Blog</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h3>Support</h3>
+
+                <a href="contact.html">Contact</a>
+                <a href="help.html">Help Center</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
-
+```

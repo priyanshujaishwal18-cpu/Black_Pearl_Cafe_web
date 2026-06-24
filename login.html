@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Black Pearl Cafe - Login</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT SECTION -->
+
+    <div class="left">
+
+      <div class="logo">
+        <i class="fa-solid fa-mug-hot"></i>
+        Black Pearl Cafe
+      </div>
+
+      <h1>Sip, Relax,<br> Sail into Taste ☕</h1>
+
+      <p>
+        Welcome to your cozy coffee corner.
+        Crafted coffee, elegant ambiance,
+        and unforgettable moments await you.
+      </p>
+
+      <div class="coffee-circle"></div>
+
+    </div>
+
+    <!-- RIGHT SECTION -->
+
+    <div class="right">
+
+      <div class="form-box">
+
+        <!-- TABS -->
+
+        <div class="tabs">
+          <button class="tab-btn active" id="signinTab">Sign In</button>
+          <button class="tab-btn" id="signupTab">Sign Up</button>
+        </div>
+
+        <!-- SIGN IN FORM -->
+
+        <form class="signin-form" id="signinForm">
+
+          <h2>Welcome Back ☕</h2>
+          <p class="sub-text">Sign in to continue your cafe journey</p>
+
+          <div class="input-group">
+            <input type="email" placeholder="Email Address" required>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="input-group">
+            <input type="password" placeholder="Password" id="signinPassword" required>
+            <i class="fa-solid fa-eye"
+            onclick="togglePassword('signinPassword', this)"></i>
+          </div>
+
+          <div class="row">
+
+            <label>
+              <input type="checkbox">
+              Remember me
+            </label>
+
+            <a href="#">Forgot Password?</a>
+
+          </div>
+
+          <button class="btn">Sign In</button>
+
+          <div class="divider">OR</div>
+
+          <div class="social-buttons">
+
+            <button type="button" class="social-btn">
+              <i class="fa-brands fa-google"></i>
+              Continue with Google
+            </button>
+
+            <button type="button" class="social-btn">
+              <i class="fa-brands fa-facebook-f"></i>
+              Continue with Facebook
+            </button>
+
+          </div>
+
+        </form>
+
+        <!-- SIGN UP FORM -->
+
+        <form class="signup-form" id="signupForm">
+
+          <h2>Create Account ✨</h2>
+          <p class="sub-text">Join the Black Pearl experience</p>
+
+          <div class="input-group">
+            <input type="text" placeholder="Full Name" required>
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="input-group">
+            <input type="email" placeholder="Email Address" required>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="input-group">
+            <input type="password" placeholder="Password" id="signupPassword" required>
+            <i class="fa-solid fa-eye"
+            onclick="togglePassword('signupPassword', this)"></i>
+          </div>
+
+          <div class="input-group">
+            <input type="password" placeholder="Confirm Password"
+            id="confirmPassword" required>
+
+            <i class="fa-solid fa-eye"
+            onclick="togglePassword('confirmPassword', this)"></i>
+          </div>
+
+          <button class="btn">Create Account</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="login.js"></script>
+
+</body>
+</html>
